@@ -1,0 +1,6 @@
+---
+- name: Test Playbook
+  hosts: arch
+  - tasks:
+    - name: Ping
+      ping:
