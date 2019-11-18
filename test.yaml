@@ -1,6 +1,6 @@
 ---
 - name: Test Playbook
   hosts: all
-  - tasks:
-    - name: Ping
-      ping:
+  tasks:
+  - name: Ping
+    ping:
